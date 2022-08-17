@@ -1,0 +1,41 @@
+.Landing{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.Landing h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.Landing p{
+    margin: 3rem 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+.txt{
+    width: 50%;
+}
+.btn{
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid var(--text-color);
+    padding: 10px;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: var(--text-color);
+}
+.btn:hover, .btn:hover > .material-symbols-rounded{
+    color: white;
+    font-weight: 300;
+}
+.material-symbols-rounded{
+    transition: 0.4s ;
+    font-weight: 600 ;
+}

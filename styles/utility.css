@@ -1,6 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', sans-serif;
+    --primary-color:#355070;
+    --text-color:#1F1F1F;
+    color: var(--text-color);
+}
+.highlight{
+    color: var(--primary-color);
+}
+.m-auto{
+    width: 80vw;
+    margin: auto;
 }
