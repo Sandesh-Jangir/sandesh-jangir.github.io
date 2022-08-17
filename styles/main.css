@@ -13,6 +13,7 @@
     margin: 3rem 0;
     font-size: 25px;
     font-weight: 500;
+    text-align: justify;
 }
 .txt{
     width: 50%;
@@ -43,9 +44,36 @@
 .image{
     height: 25rem;
     width: 25rem;
-    background-image: url('/Images/WhatsApp\ Image\ 2022-06-11\ at\ 11.01.16\ AM.jpeg');
+    background-image: url('/Images/Profile.jpeg');
     background-position: center;
     background-size:cover;
     border-radius: 50%;
     border: 5px solid var(--primary-color);
+}
+
+@media (max-width:950px) {
+    .Landing p{
+        font-size: 20px;
+    }
+    .Landing h1{
+        font-size: 2rem;
+    }
+    .image{
+        width: 10rem;
+        height: 10rem;
+    }
+    .Landing{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 2rem;
+        width: 100vw;
+        gap: 2rem;
+    }
+    .txt{
+        width: 80%;
+    }
+    .Landing h1{
+        text-align: center;
+    }
 }

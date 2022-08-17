@@ -7,6 +7,9 @@
     --text-color:#1F1F1F;
     color: var(--text-color);
 }
+html{
+    overflow-x: hidden;
+}
 .highlight{
     color: var(--primary-color);
 }
