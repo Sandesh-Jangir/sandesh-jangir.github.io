@@ -1,6 +1,7 @@
 .Landing{
     height: 100vh;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -38,4 +39,13 @@
 .material-symbols-rounded{
     transition: 0.4s ;
     font-weight: 600 ;
+}
+.image{
+    height: 25rem;
+    width: 25rem;
+    background-image: url('/Images/WhatsApp\ Image\ 2022-06-11\ at\ 11.01.16\ AM.jpeg');
+    background-position: center;
+    background-size:cover;
+    border-radius: 50%;
+    border: 5px solid var(--primary-color);
 }
