@@ -50,6 +50,36 @@
     border-radius: 50%;
     border: 5px solid var(--primary-color);
 }
+.about-me{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.about-me p{
+    font-size: 2rem;
+    padding: 0px 10vw;
+    text-align: justify;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.social{
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+}
+.email{
+    position: absolute;
+    list-style: none;
+    bottom: 3rem;
+    left: 0;
+    font-size: 1.5rem;
+}
+.social img{
+    height: 10vh;
+}
+
 
 @media (max-width:950px) {
     .Landing p{
