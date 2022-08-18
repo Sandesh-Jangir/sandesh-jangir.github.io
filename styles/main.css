@@ -42,8 +42,8 @@
     font-weight: 600 ;
 }
 .image{
-    height: 25rem;
-    width: 25rem;
+    height: 23rem;
+    width: 23rem;
     background-image: url('/Images/Profile.jpeg');
     background-position: center;
     background-size:cover;
