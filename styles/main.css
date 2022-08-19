@@ -170,11 +170,25 @@
     .email{
         font-size: 1rem;
     }
+    .projects h1{
+        font-size: 2rem;
+    }
+    #crd-grp{
+        height: 150vh;
+        grid-template-columns: 1fr;
+    }
+    .card{
+        height: 35vh;
+    }
+    
 }
 
 @media (max-width:360px) {
     .about-me p{
         font-size: 1.3rem;
         padding: 0;
+    }
+    .card >*{
+        font-size: smaller;
     }
 }
