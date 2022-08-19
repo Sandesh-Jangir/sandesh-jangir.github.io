@@ -117,3 +117,10 @@
         font-size: 1rem;
     }
 }
+
+@media (max-height:655px) {
+    .about-me p{
+        font-size: 1.3rem;
+        padding: 0;
+    }
+}
