@@ -85,7 +85,7 @@
     padding: 5vh 0vh;
 }
 #crd-grp{
-    height: 75vh;
+    min-height: 75vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -134,7 +134,83 @@
     color: white;
     padding: 10px 12px;
 }
-
+footer{
+    background-color: var(--text-color);
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    padding: 30px;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.more{
+    font-size: 2rem;
+    color:white;
+    font-weight: 300;
+    height: 100%;
+    display: flex;
+}
+.footer-col{
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.footer-col::after{
+    content: '';
+    display: block;
+    height: 150%;
+    width: 70%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--primary-color);
+}
+.skills p, .web-apps a{
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 0.8rem;
+    color: white;
+}
+.web-apps a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.web-apps a:hover{
+    padding-left: 20px;
+}
+.follow-me ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 20px;
+}
+.follow-me li{
+    background-color: white;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    z-index: 1;
+    list-style: none;
+    border-radius: 50%;
+}
+.follow-me a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.follow-me li, .follow-me li >*{
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.follow-me li:hover{
+    background-color: var(--primary-color);
+}
+.follow-me li:hover > a  > i{
+    color: white;
+}
 @media (max-width:950px) {
     .Landing p{
         font-size: 20px;
@@ -174,7 +250,7 @@
         font-size: 2rem;
     }
     #crd-grp{
-        height: 150vh;
+        min-height: 150vh;
         grid-template-columns: 1fr;
     }
     .card{
