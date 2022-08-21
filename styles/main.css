@@ -256,6 +256,11 @@ footer{
     .card{
         height: 35vh;
     }
+    footer{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
     
 }
 
@@ -266,5 +271,13 @@ footer{
     }
     .card >*{
         font-size: smaller;
+    }
+    footer{
+        align-items: center;
+    }
+    .web-apps{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
