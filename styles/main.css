@@ -101,21 +101,22 @@
     overflow: hidden;
 }
 .card button{
-    background: transparent;
-    color: white;
+    background: white;
+    color: var(--text-color);
     display: flex;
     align-items: center;
     border: 2px solid white;
     border-radius: 5px;
     padding: 5px 10px;
     gap: .5rem;
+    font-weight: 600;
     cursor: pointer;
 }
 .card a{
     text-decoration: none;
 }
 .card span{
-    color: white;
+    color: var(--text-color);
     font-weight: 300 !important;
     font-size: 20px;
 }
