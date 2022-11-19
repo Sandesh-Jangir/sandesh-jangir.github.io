@@ -32,6 +32,14 @@ let projects = [
 ]
 
 for (let i = 0; i < projects.length; i++) {
+    if(projects[i]["desc"].length > 160){
+        projects[i]["desc"] = projects[i]["desc"].slice(0, 160);
+        projects[i]["desc"] += " ...";
+    }
+    
+}
+
+for (let i = 0; i < projects.length; i++) {
     let card = projects[i]
     let card_group = document.getElementById("crd-grp")
     card_group.innerHTML+=`

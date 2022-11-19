@@ -133,7 +133,14 @@
 }
 .card >*{
     color: white;
-    padding: 10px 12px;
+    padding: 12px;
+}
+.title{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 footer{
     background-color: var(--text-color);
