@@ -152,11 +152,12 @@ footer{
     margin-top: 1rem;
 }
 .more{
-    font-size: 2rem;
+    font-size: 1.65rem;
     color:white;
-    font-weight: 300;
-    height: 100%;
+    font-weight: 500;
     display: flex;
+    letter-spacing: 1px;
+    align-items: center;
 }
 .footer-col{
     color: white;
