@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+.navbar{
+    display: flex;
+    position:absolute;
+    padding: 20px;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#brand-name{
+    font-family: 'Cookie', cursive;
+    font-size: 45px;
+    color: white;
+    width: max-content;
+}
+.navigators{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+.navigators li{
+    margin: 0px 5%;
+}
+.navigators a{
+    font-family: 'Inconsolata', monospace !important;
+    letter-spacing: 1px;
+    color: white;
+}
