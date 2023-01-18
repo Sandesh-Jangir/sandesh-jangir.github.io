@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.projects{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0D1B2A;
+}
+.projects-header{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.underline{
+    height: 5px;
+    width: 120%;
+    background-color: #8EA0B8;
+    border-radius: 20px;
+}
+.projects-header h1{
+    font-family: 'Lobster Two', cursive;
+    color: #8EA0B8;
+    letter-spacing: 1px;
+}
+.card-grp{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.card{
+    grid-column: 1fr;
+    background-color: #1B263B;
+    padding: 20px;
+    border-radius: 18px;
+    height: 350px;
+}
+.card-heading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #A1B1C4;
+    letter-spacing: 4px;
+}
+.card-content{
+    background-color: #A1B1C4;
+    color: #1B263B;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.card-btn{
+    background-color: #415A77;
+    color: #D6D5C9;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.repos-link{
+    margin-top: 2rem;
+    color: #A1B1C4;
+    width: 300px;
+    border: 2px solid;
+    padding: 10px;
+    background:transparent;
+    font-size: 20px;
+    border-radius: 40px;
+    position: absolute;
+    right: 5vw;
+}

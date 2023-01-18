@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/landing-page.css">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
-        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/projects.css">
 </head>
 
 <body>
@@ -23,7 +21,7 @@
             <li><a href="#learnings">Learnings();</a></li>
         </ul>
     </nav>
-    <main class="landing-page">
+    <main id="landing-page" class="landing-page">
         <h1 class="main-header">Developer.</h1>
         <div class="landing-container">
             <div class="side-header">Designer</div>
@@ -38,7 +36,34 @@
                 </p>
             </div>
         </div>
+    </main>
 
+    <main id="projects" class="projects">
+        <div class="projects-header">
+            <h1>Think .Create .Innovate</h1>
+            <div class="underline"></div>
+        </div>
+        <div class="project-content">
+            <div class="card-grp">
+                <div class="card">
+                    <div class="card-heading">Cryptocurrency Tracker</div>
+                    <div class="card-content">It is a web application which uses Coin-Lore Cryptocurrency API to fetch crypto data. Then it filters the fetched data for different use cases.</div>
+                    <a class="card-btn">View Project</a>
+                </div>
+                <div class="card">
+                    <div class="card-heading">Ledger - Account Manager</div>
+                    <div class="card-content">It is an Electron GUI Application in which you can track your transactions and get a performance report about your income, expense and balance.</div>
+                    <a class="card-btn">View Project</a>
+                </div>
+                <div class="card">
+                    <div class="card-heading">Secured User Management</div>
+                    <div class="card-content">It's a user authenticating system which is made using the MERN Stack and after authenticating the user it redirects to "dashboard".</div>
+                    <a class="card-btn">View Project</a>
+                </div>
+            </div>
+
+            <button class="repos-link">See More On Github &rarr;</button>
+        </div>
     </main>
 </body>
 
