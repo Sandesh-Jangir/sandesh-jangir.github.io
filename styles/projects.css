@@ -36,7 +36,7 @@
     background-color: #1B263B;
     padding: 20px;
     border-radius: 18px;
-    height: 350px;
+    height: 55vh;
 }
 .card-heading{
     font-family: 'Bebas Neue', cursive;
@@ -76,4 +76,50 @@
     border-radius: 40px;
     position: absolute;
     right: 5vw;
+}
+@media (max-width: 1250px) {
+    .card-heading{
+        font-size: 20px;
+    }
+    .card-content{
+        font-size: 18px;
+    }
+}
+@media (max-width: 900px) {
+    .underline{
+        width: 100%;  
+    } 
+    .card-grp{
+        grid-template-columns: 1fr 1fr;
+    }
+    .projects-header{
+        font-size: 1.8rem;
+        margin-top: 2%;
+    }
+    .card{
+        height: 400px;
+        font-size: smaller;
+    }
+}
+@media (max-width: 600px){
+    .projects{
+        height: 200vh;
+    }
+    .card-grp{
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+    }
+    .projects-header{
+        font-size: 1.5rem;
+        padding: 0px 30px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .card{
+        font-size: small;
+    }
+    .repos-link{
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
