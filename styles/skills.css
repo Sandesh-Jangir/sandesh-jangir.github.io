@@ -43,7 +43,24 @@
 .skills img{
     height: 100px;
     position: absolute;
-    top: -15%;
+    top: -50px;
     left: 50%;
     transform: translateX(-50%);
+}
+@media (max-width: 900px) {
+    .skill-header{
+        font-size: 4rem;
+    }
+    .skills{
+        height: fit-content;
+        padding: 2rem 0;
+    }
+    .skill-gallery{
+        flex-direction: column;
+        gap: 5rem;
+        margin-top: 15vh;
+    }
+    .skill-set{
+        width: 100%;
+    }
 }
